@@ -33,7 +33,17 @@
         </property>
 
     </bean>
-    <bean id="qstion" class="spring.code.test.Question">
+    <bean id="ans1" class="ci.Answer">
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="Java is a Programming Language"></constructor-arg>
+        <constructor-arg value="Jhon"></constructor-arg>
+    </bean>
+    <bean id="ans2" class="ci.Answer">
+        <constructor-arg value="2"></constructor-arg>
+        <constructor-arg value="Java is a name of Indonasian Island"></constructor-arg>
+        <constructor-arg value="Ravi"></constructor-arg>
+    </bean>
+    <bean id="qstion" class="ci.Question">
         <constructor-arg value="111"></constructor-arg>
         <constructor-arg value="What is Java ???"></constructor-arg>
         <constructor-arg>
@@ -41,7 +51,10 @@
                 <value>Java is a Programming language</value>
                 <value>Java is a name of Indonasian Island</value>
                 <value>Java Is a Software </value>
+
             </list>
         </constructor-arg>
     </bean>
+
+
 </beans>

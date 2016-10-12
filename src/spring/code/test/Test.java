@@ -2,6 +2,7 @@ package spring.code.test;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import ci.Question;
 
 /**
  * Created by gazi_opu on 10/10/2016.

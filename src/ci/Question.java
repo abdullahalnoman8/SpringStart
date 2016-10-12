@@ -1,4 +1,4 @@
-package spring.code.test;
+package ci;
 
 import java.util.Iterator;
 import java.util.List;
