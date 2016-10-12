@@ -33,4 +33,15 @@
         </property>
 
     </bean>
+    <bean id="qstion" class="spring.code.test.Question">
+        <constructor-arg value="111"></constructor-arg>
+        <constructor-arg value="What is Java ???"></constructor-arg>
+        <constructor-arg>
+            <list>
+                <value>Java is a Programming language</value>
+                <value>Java is a name of Indonasian Island</value>
+                <value>Java Is a Software </value>
+            </list>
+        </constructor-arg>
+    </bean>
 </beans>

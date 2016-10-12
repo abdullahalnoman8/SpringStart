@@ -14,11 +14,17 @@ public class Test {
         System.out.println(hello.getMessage());
 
 
+        System.out.println("---------------------- Simple Initialization with Object Reference  ------------------------");
         Employee employee = (Employee) context.getBean("emp");
-
         employee.show();
 
+        System.out.println("---------------------- Now Simple Initialization  ------------------------");
         Employee empObj = (Employee) context.getBean("obj");
         empObj.display();
+
+        /*------------------- Question(List implementation) --------------- */
+        Question q = (Question) context.getBean("qstion");
+        System.out.println("---------------------- Now List ------------------------");
+        q.displayInfo();
     }
 }
